@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Thu, 25 Sep 2017 18:54:03 +0300
+Source: zabbix
+Binary: zabbix-agent zabbix-get zabbix-sender zabbix-server-mysql zabbix-server-pgsql zabbix-frontend-php zabbix-proxy-mysql zabbix-proxy-pgsql zabbix-proxy-sqlite3 zabbix-java-gateway
+Architecture: source armhf all
+Version: 1:3.4.2-1+jessie
+Distribution: stable
+Urgency: low
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Changed-By: Vladimir Levijev <vladimir.levijev@zabbix.com>
+Description:
+ zabbix-agent - Zabbix network monitoring solution - agent
+ zabbix-frontend-php - Zabbix network monitoring solution - PHP front-end
+ zabbix-get - Zabbix network monitoring solution - get
+ zabbix-java-gateway - Zabbix network monitoring solution - java-gateway
+ zabbix-proxy-mysql - Zabbix network monitoring solution - proxy (MySQL)
+ zabbix-proxy-pgsql - Zabbix network monitoring solution - proxy (PostgreSQL)
+ zabbix-proxy-sqlite3 - Zabbix network monitoring solution - proxy (SQLite3)
+ zabbix-sender - Zabbix network monitoring solution - sender
+ zabbix-server-mysql - Zabbix network monitoring solution - server (MySQL)
+ zabbix-server-pgsql - Zabbix network monitoring solution - server (PostgreSQL)
+Changes:
+ zabbix (1:3.4.2-1+jessie) stable; urgency=low
+ .
+   * update to 3.4.2
+Checksums-Sha1:
+ a8501af1aac12ddcef76acd6762032e43b090c02 2265 zabbix_3.4.2-1+jessie.dsc
+ 986a2f18952ca88fdc7b4b1f5f99429f1bb54353 17113290 zabbix_3.4.2.orig.tar.gz
+ 36af8b15c7d8f0926147be66fe70f05b50726ae3 9492 zabbix_3.4.2-1+jessie.debian.tar.xz
+ 3f7866a78160f6be02940b946afc600f6b6624ac 354254 zabbix-agent_3.4.2-1+jessie_armhf.deb
+ 4b2f1845c91ced10ff6511942f5c10d3ad09f5c3 265460 zabbix-get_3.4.2-1+jessie_armhf.deb
+ 310b0a3ca8818108e1b2478002e8593d3cd3cdc9 274524 zabbix-sender_3.4.2-1+jessie_armhf.deb
+ e43d9d9de8ffc4d8e402b8c1ae6c3203518363e5 1942360 zabbix-server-mysql_3.4.2-1+jessie_armhf.deb
+ efb7d58b6d9006d30cf4b459c6d8b3d7d039f0f0 1939742 zabbix-server-pgsql_3.4.2-1+jessie_armhf.deb
+ 595a611ff133bb5b9fb079e18a17eabf78d457a4 2198104 zabbix-frontend-php_3.4.2-1+jessie_all.deb
+ 215f5b0ab310d3e51de8110b55929c481a1a8235 586316 zabbix-proxy-mysql_3.4.2-1+jessie_armhf.deb
+ a735e1a13f1f4446d6e29c089422c324b18eacbc 586090 zabbix-proxy-pgsql_3.4.2-1+jessie_armhf.deb
+ 8289ad9a4f08e49f824807a7ee7c0a34007a0282 567638 zabbix-proxy-sqlite3_3.4.2-1+jessie_armhf.deb
+ 79f957274abaf29a61de28441dc4468c9e66ca20 770792 zabbix-java-gateway_3.4.2-1+jessie_all.deb
+Checksums-Sha256:
+ 6926c65e59639cd53065e617576b61818621cfbe98921ec1b0c812c85f12cc90 2265 zabbix_3.4.2-1+jessie.dsc
+ 54c21e04da4ef43380af647c6a0ddff67614337386fa318da021117efe5b334f 17113290 zabbix_3.4.2.orig.tar.gz
+ e08d646e5f85b769c8687fc5e0449dbdc8acba1d42f8dc0d4560cbfd37fdc118 9492 zabbix_3.4.2-1+jessie.debian.tar.xz
+ b28bff467aaa4b146bd3478d5298fbc0ea99594fbbb887996a86e2fd664e4f5a 354254 zabbix-agent_3.4.2-1+jessie_armhf.deb
+ acf7f68ba5865c564c0a54f0a647103714adca33b89005da0707f6f215065fee 265460 zabbix-get_3.4.2-1+jessie_armhf.deb
+ b81f86543d7dae4b621cc09ae7b08227b1ddaeca5cd5dbe9723ac69dc3382eb5 274524 zabbix-sender_3.4.2-1+jessie_armhf.deb
+ c816eded5fd2dbf4a135b3b51bbcf54a35f16916c047bc9626f4487eba86d1d1 1942360 zabbix-server-mysql_3.4.2-1+jessie_armhf.deb
+ 149d93907e6cc496f688403bc65b900ce4aee3b490152e3fd2b37205ab240cb0 1939742 zabbix-server-pgsql_3.4.2-1+jessie_armhf.deb
+ e7af77b3b2b9a0d232aeee6c9916c87973557fe8f82a9960dc68295ff08438d3 2198104 zabbix-frontend-php_3.4.2-1+jessie_all.deb
+ e3189783d9ed44046f68edaeb12b877b0a63e7ae6e65c0439dce9e7f56242643 586316 zabbix-proxy-mysql_3.4.2-1+jessie_armhf.deb
+ 4266a383a4039153475b250efd722f8707a05fe6abe47dbd0b642a0e4ac9aad2 586090 zabbix-proxy-pgsql_3.4.2-1+jessie_armhf.deb
+ 0491c9837cad385377e83ded041c5e92771a8afae8dccc6b3a5abdca2b71de2f 567638 zabbix-proxy-sqlite3_3.4.2-1+jessie_armhf.deb
+ fadebf6c8526227f0c2d6d5e873f93a5b713884c89dbaf8bd2f7f3d0c31b658c 770792 zabbix-java-gateway_3.4.2-1+jessie_all.deb
+Files:
+ a84be5b22a888548c7672c47231c94b3 2265 net optional zabbix_3.4.2-1+jessie.dsc
+ 32f06c057b1749cd6fb3fe2ed1d9d797 17113290 net optional zabbix_3.4.2.orig.tar.gz
+ 0aff9bb01a2050d8b03c306b908770f5 9492 net optional zabbix_3.4.2-1+jessie.debian.tar.xz
+ 53e0cf8f8243ed610b7ab59cf553cd69 354254 net optional zabbix-agent_3.4.2-1+jessie_armhf.deb
+ 3d3e09c50a7a6e5c3e154a6b5b231b9e 265460 net optional zabbix-get_3.4.2-1+jessie_armhf.deb
+ 27b4b000adab1345f15ecac7dd8481ff 274524 net optional zabbix-sender_3.4.2-1+jessie_armhf.deb
+ 4552d55d66eafbeadc503cdac014e431 1942360 net optional zabbix-server-mysql_3.4.2-1+jessie_armhf.deb
+ dd8555cd6e5c29127dbfa6ac60236930 1939742 net optional zabbix-server-pgsql_3.4.2-1+jessie_armhf.deb
+ 7abc2c5c6092413bc295116ee0d5296e 2198104 net optional zabbix-frontend-php_3.4.2-1+jessie_all.deb
+ e82e9931ffe71b45c5b966ee4af0ba62 586316 net optional zabbix-proxy-mysql_3.4.2-1+jessie_armhf.deb
+ a6eaa2fe3ef2c97141ae113d6bcd87c1 586090 net optional zabbix-proxy-pgsql_3.4.2-1+jessie_armhf.deb
+ 65aa4388456b6fab0ff00dcd01a2ff78 567638 net optional zabbix-proxy-sqlite3_3.4.2-1+jessie_armhf.deb
+ 5b5388784b05935a228a4322ff922ce1 770792 net optional zabbix-java-gateway_3.4.2-1+jessie_all.deb
